@@ -46,9 +46,3 @@ $factory->define(App\Models\Transaction::class, function (Faker\Generator $faker
     	'user_id' => 1,
     ];
 });
-
-$factory->define('App\Models\test', function (Faker\Generator $faker) {
-    return [
-        'name' => $faker->name,
-    ];
-});
