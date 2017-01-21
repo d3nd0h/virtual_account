@@ -25,7 +25,7 @@ class CreateUserRequest extends Request
     {
         return [
             'name'      => 'required',
-            'username'  => 'required|alphanum|min:6',
+            'username'  => 'required|alphanum',
         ];
     }
 }
